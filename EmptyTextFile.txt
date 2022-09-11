@@ -1,0 +1,10 @@
+﻿public void printData(object sender, EventArgs e)
+        {
+            string strurl = string.Format("https://jsonplaceholder.typicode.com/users");
+            WebRequest requestObjGet = WebRequest.Create(strurl);
+            HttpWebResponse responseObjGet = null;
+            using (StreamContent stream = new StreamContent(responseObjGet.GetResponseStream()))
+            {
+                
+            }
+        }
