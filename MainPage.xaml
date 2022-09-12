@@ -33,7 +33,9 @@
                 Placeholder="Enter Note"
                 Margin="10,10"
                 BackgroundColor="Black"
-                Text="{Binding NoteText}" />
+                Text="{Binding NoteText}"
+                TextColor="Cyan"
+                />
 
         <Button Text="Fetch Data"
                 Grid.Row="2"
@@ -70,6 +72,7 @@
                     <StackLayout Padding="10,10">
                         <Frame>
                             <Label Text="{Binding Text}"
+                                   TextColor="AntiqueWhite"
                                    Background="Black"
                                    BackgroundColor="Black"
                                    VerticalTextAlignment="Center" />
